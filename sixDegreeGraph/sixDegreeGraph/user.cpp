@@ -31,7 +31,7 @@ User::User() {
 
 User::User(int userID, string userName, int followerCount, int followingCount) {
 	this->userID = userID;
-	this->userName = username;
+	this->userName = userName;
 	this->followerCount = followerCount;
 	this->followingCount = followingCount;
 }
