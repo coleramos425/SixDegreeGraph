@@ -33,9 +33,9 @@ int main()
 	/****************************BEGIN DUAL BFS******************************/
 	//First we will turn every follower into a user object. Could do in above user loop.
 
-	Graph userGraph();// Insert graph size based on Followers data
+	Graph userGraph(listOfIds.size());// Insert graph size based on Followers data
 	for (int iter = 0; iter < listOfIds.size(); iter++) {
-		listOfIds.userGraph(listOfIds[iter]); // Insert an edge by grabbing the Users ID and connecting it to either the orig user or the target account.
+		userGraph.addEdge(0, listOfIds[iter]); // Insert an edge by grabbing the Users ID and connecting it to either the orig user or the target account.
 	}
 
 	//Perform BFS with above graph.
