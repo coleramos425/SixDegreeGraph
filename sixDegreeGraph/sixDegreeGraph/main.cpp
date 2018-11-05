@@ -5,6 +5,7 @@
 #include "user.cpp"
 #include "graph.h"
 
+
 using namespace std;
 
 int main()
@@ -39,7 +40,7 @@ int main()
 	}
 
 	//Perform BFS with above graph.
-	userGraph.bfs();
+	//userGraph.bfs();
 	// Create a graph given in the above diagram.
 	return 0;
 }
