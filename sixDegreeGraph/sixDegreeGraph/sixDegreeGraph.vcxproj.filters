@@ -31,6 +31,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\..\Desktop\chieffkeeffsossa.txt" />
+    <Text Include="cheifkeef.txt" />
   </ItemGroup>
 </Project>
