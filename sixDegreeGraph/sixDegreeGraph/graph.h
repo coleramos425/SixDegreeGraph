@@ -1,5 +1,5 @@
-#ifndef GRAPH.H
-#define GRAPH.H
+#ifndef GRAPH_H
+#define GRAPH_H
 #include<iostream>
 #include <list> 
 #include <string>
