@@ -32,5 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="cheifkeef.txt" />
+    <Text Include="ben.txt" />
   </ItemGroup>
 </Project>
